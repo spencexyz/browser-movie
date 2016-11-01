@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    .fullscreen-bg {
+      position: absolute;
+      top: 0;
+      left: -220px;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -1000;
+      overflow: hidden;
+    }
+
+    .fullscreen-bg video {
+      height: 730px;
+    }
+  </style>
+</head>
+<body>
+  <div class="fullscreen-bg">
+    <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+      <source src="../shots/scene4.mp4" type="video/mp4">
+    </video>
+  </div>
+</body>
+</html>
